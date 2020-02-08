@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/textVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#D81B60" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textVi"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="24dp"
+        android:text="I am the biggest alphabet as i contain most water in the world?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_alignParentBottom="false" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView111">
+
+        <RadioButton
+            android:id="@+id/radioButton222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView111"
+            android:layout_marginTop="34dp"
+            android:text="M" />
+
+        <RadioButton
+            android:id="@+id/radioButton223"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioButton222"
+            android:layout_marginTop="29dp"
+            android:text="C" />
+
+        <RadioButton
+            android:id="@+id/radioButton224"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+
+            android:layout_marginTop="34dp"
+            android:text="V" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button172"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup11"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="CHECK ANSWER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView222"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/button172"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="11dp"
+        android:text="TextView" />
+
+</RelativeLayout>
